@@ -6,9 +6,9 @@ with open('README.md' ,'r',encoding='utf-8') as f:
 
 __version__="0.0.0"
 
-REPO_NAME='Hybrid-QC-CNN'
+REPO_NAME='ML-ops'
 AUTHOR_USER_NAME='nagarajRPoojari'
-SRC_REPO='HybridQCCNN'
+SRC_REPO='MLflow'
 AUTHOR_EMAIL='np137270@gmail.com'
 
 
