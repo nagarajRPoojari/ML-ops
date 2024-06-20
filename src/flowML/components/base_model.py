@@ -1,10 +1,10 @@
-from MLflow.config.configuration import ConfigurationManager
-from MLflow.entity.config_entity import PrepareBaseModelConfig
+from flowML.config.configuration import ConfigurationManager
+from flowML.entity.config_entity import PrepareBaseModelConfig
 import os
 import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
-
+from pathlib import Path
 
 class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig):

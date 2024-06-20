@@ -1,6 +1,6 @@
-from MLflow.config.configuration import ConfigurationManager
-from MLflow.components.base_model import PrepareBaseModel
-from MLflow import logger
+from flowML.config.configuration import ConfigurationManager
+from flowML.components.base_model import PrepareBaseModel
+from flowML import logger
 
 STAGE_NAME= "STAGE-02 Preparing base model "
 

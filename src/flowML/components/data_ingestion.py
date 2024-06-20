@@ -1,9 +1,9 @@
 import gdown
 import zipfile
-from MLflow import logger
-from MLflow.utils.common import get_size
+from flowML import logger
+from flowML.utils.common import get_size
 import os
-from MLflow.entity.config_entity import DataIngestionConfig
+from flowML.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):

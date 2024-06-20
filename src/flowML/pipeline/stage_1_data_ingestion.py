@@ -1,6 +1,6 @@
-from MLflow.config.configuration import ConfigurationManager
-from MLflow.components.data_ingestion import DataIngestion
-from MLflow import logger
+from flowML.config.configuration import ConfigurationManager
+from flowML.components.data_ingestion import DataIngestion
+from flowML import logger
 
 STAGE_NAME= "STAGE-01 Data ingestion "
 
