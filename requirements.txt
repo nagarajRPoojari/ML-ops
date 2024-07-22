@@ -17,4 +17,6 @@ types.pyYAML
 scipy
 Flask
 Flask-Core
+
+Flask-Cors
 -e .

@@ -15,7 +15,7 @@ class ModelTrainingPipeline:
             training.get_base_model()
             training.train_valid_generator()
             training.train()
-        except Exception as e:
+        except Exception as e: 
             raise e
         
 
